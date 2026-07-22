@@ -1,0 +1,9 @@
+# config/packages/hwi_oauth.yaml
+hwi_oauth:
+    firewall_names: [shop]
+    resource_owners:
+        facebook:
+            type: facebook
+            client_id: <client_id>
+            client_secret: <client_secret>
+            scope: "email"
